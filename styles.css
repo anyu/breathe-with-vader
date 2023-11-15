@@ -14,7 +14,7 @@ body {
   margin-top: 20px;
 }
 
-button {
+#soundButton {
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 800;
   background-color: black;
@@ -26,10 +26,23 @@ button {
   font-size: 50px;
   cursor: pointer;
   margin-top: 40px; 
-  margin-bottom:50px;
-  transition-duration: 0.4s;
+  margin-bottom:10px;
 }
 
-button:hover {
+#changeVader {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800;
+  background-color: black;
+  border: none;
+  color: #e6e6e6;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 5px; 
+  margin-bottom:60px;
+}
+
+#changeVader:hover, #soundButton:hover {
   text-decoration: underline;
 }
