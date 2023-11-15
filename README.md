@@ -1,2 +1,6 @@
 # breathe-with-vader
-A meditation app where you breathe to Dark Vader's calming breaths
+Breathe deeply to Lord Vader's calming breaths. Achieve max peace.
+
+https://breathe-with-vader.vercel.app
+
+![](images/preview.png)
