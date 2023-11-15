@@ -1,4 +1,5 @@
 body {
+  font-family: 'Nanum Myeongjo', serif;
   background-color: black;
   color: white;
   display: flex;
@@ -9,15 +10,22 @@ body {
   margin: 0;
 }
 
+#container {
+  margin-top: 20px;
+}
+
 button {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800;
   background-color: black;
   border: none;
-  color: red; /* Changed to black for visibility */
+  color: white; /* Changed to black for visibility */
   padding: 20px 40px;
   text-align: center;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 60px;
   border-radius: 12px;
   cursor: pointer;
-  margin-top: 20px; /* Adds space between the image and the button */
+  margin-top: 40px; 
+  margin-bottom:50px;
 }
