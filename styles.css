@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: red; /* Changed to black for visibility */
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px; /* Adds space between the image and the button */
+}
