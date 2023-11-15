@@ -1,17 +1,24 @@
+
 body {
   font-family: 'Nanum Myeongjo', serif;
   background-color: black;
   color: white;
   display: flex;
-  flex-direction: column; /* Align items vertically */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
 }
 
 #container {
-  margin-top: 20px;
+  margin-top: 50px;
+}
+
+#inner {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
 }
 
 #soundButton {
@@ -40,7 +47,6 @@ body {
   font-size: 20px;
   cursor: pointer;
   margin-top: 5px; 
-  margin-bottom:60px;
 }
 
 #changeVader:hover, #soundButton:hover {
